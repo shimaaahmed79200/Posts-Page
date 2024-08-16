@@ -1,0 +1,22 @@
+{
+    "posts": [
+        {
+            "likes": 0,
+            "content": "Post1111111",
+            "id": 1,
+            "username": "Esra"
+        },
+        {
+            "likes": 5,
+            "content": "Post2222222",
+            "id": 2,
+            "username": "Fady"
+        },
+        {
+            "likes": 3,
+            "content": "Post33333",
+            "id": 3,
+            "username": "Rahma"
+        }
+    ]
+}

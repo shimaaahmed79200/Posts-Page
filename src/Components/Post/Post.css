@@ -1,0 +1,52 @@
+.Post {
+  margin: 10px;
+  border: 1px solid rgb(158, 155, 155);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  width: 90%;
+  padding: 10px;
+}
+@media(max-width:767px){
+  .Post{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.PostWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.Post > p {
+  padding: auto;
+}
+.DeleteBtns {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.CounterWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  background-color: hsl(223, 19%, 93%);
+  width: 30px;
+  color: #5357b6;
+  
+  margin-left: 10px;
+}
+
+.CounterWrapper > button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #5357b6;
+  margin: 0;
+  padding: 0;
+}

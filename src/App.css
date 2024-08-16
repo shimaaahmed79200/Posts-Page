@@ -1,0 +1,65 @@
+body{
+    line-height: 1.7;
+}
+button {
+    background-color: rgb(75, 55, 137);
+    color: #f0eeee;
+    border-radius: 6px;
+    padding:10px 15px;
+    margin: 5px;
+}
+button:hover {
+    background-color: rgb(243, 235, 235);
+    color: #5b2e9d;
+    border-radius: 6px;
+    padding:10px 15px;
+}
+.DeleteBtns{
+    background-color: rgb(181, 181, 182);
+    color: #cd2d09;
+    border: 1px solid #910239;
+}
+input{
+    outline: none;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #42348e;
+}
+input:focus{
+    outline: none;
+}
+.Comment button{
+    height: fit-content;
+    margin-top: 7px;
+}
+.Comment{
+    border:1px solid #858585;
+    border-radius: 6px;
+    padding: 20px;
+    margin: 20px 0;
+}
+@media (max-width: 768){
+    .Comment{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.replay{
+    background-color: #ffffff;
+    color: #42348e;
+    border: none;
+    margin: 0;
+}
+p{
+    color: #353535;
+}
+span{
+    color: #878585;
+}
+img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 20px;
+}
